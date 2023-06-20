@@ -1,21 +1,55 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Lagosta & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Amatic+SC:wght@700 & display=swap');
+
+
+
+
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 
 }
 
 body{
     background-color:rgb(161, 156, 156);
-    width: 100vw;
-    height: 100vh;
+    width: 412px;
+    height: 846px;
+}
+#banner{
+    position: relative;
+    top: 35%;
+    text-align: center;
+    background-color: rgba(7, 7, 7, 0.459);
+    width: 90vw;
+    border-radius: 15px;
+    margin: auto;
+    
+   
+}
+#bt{
+    bottom: 50px;
+    position: relative;
+}
+#fis-02{
+    color: rgb(214, 42, 42);
+    position: relative;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 50px;
+    
+    
+    
 }
 
-h1{
+#fis{
     text-indent: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: none;
 }
 
 a {
@@ -43,11 +77,16 @@ a:hover{
 
 nav#menu-geral{
     background: url("../Imagens/light.jpg")no-repeat;
-    display: block;
+    bottom: 30px;
     color: rgb(36, 24, 202);
     background-size: cover;
     height: 30vh;
+   
     
+}
+
+#burg{
+    display: none;
 }
 
 
@@ -57,9 +96,11 @@ section{
     border-radius: 20px;
     width: 90vw;
     position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    padding: 10px;
+    
     
     
     
@@ -76,11 +117,12 @@ h2{
 }
 
 p{
-    text-align: justify;padding: 15px;
+    text-align: justify;
+    padding: 10px;
     color: rgb(236, 232, 232);
-    font-size: medium;
-
-    padding: 4;
+    font-size: 14px;
+    text-indent: 10px;
+    padding: 4px;
 
     
 }
