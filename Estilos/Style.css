@@ -181,7 +181,7 @@ p{
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
     height: 80vh;
-    width: 85vw;
+    width: 80vw;
     overflow-y: scroll;
     overflow-x: hidden;
     display: block;
@@ -192,6 +192,7 @@ p{
     scrollbar-width: 1px;
     padding: 25px;
     margin: 15px;
+    text-indent: 2px;
     
 
 
@@ -248,9 +249,68 @@ img{
 #linha{
     width: 1100px;
     border: 2px solid rgb(85, 85, 82);
-   margin-top: 10px;
-   margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
     
 }
+
+#video{
+    position: relative;
+    display: flex;
+    width: 560px;
+    left: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 5px  rgb(238, 255, 0);
+}
+
+
+dt{
+    font-style: italic;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(82, 82, 82), rgb(237, 237, 240));
+    width: 400px;
+    padding: 2px;
+    margin: 10px;
+}
+
+dd{
+    text-align: justify;
+    width: 700px;
+    float: flex;
+}
+
+#prova{
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0px 0px 5px  rgb(32, 32, 32);
+    width: 800px;
+    height: 690px;
+    position:absolute;
+    left: 50%;
+    top:73%;
+    transform: translate(-50%, -50%);
+}
+
+#questao{
+    padding: 10px;
+    text-align: justify;
+    border: 1px solid yellow;
+    margin: 10px;
+    width: 700px;
+    position: relative;
+    left: 5%;
+    top: 2%;
+}
+
+input#enviar{
+    margin:10px;
+    position: relative;
+    left: 5%;
+    
+}
+
 
